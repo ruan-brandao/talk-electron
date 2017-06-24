@@ -1,7 +1,9 @@
 # Links utilizados na apresentação
 
 * [Site do Electron](https://electron.atom.io/)
+* [Começando com Electron](https://electron.atom.io/docs/tutorial/quick-start/)
 * [Documentação do Electron](https://electron.atom.io/docs/)
+* [Link para instalação do Node.JS](https://nodejs.org/en/download/package-manager/)
 * [Aplicativos usando Electron](https://electron.atom.io/apps/)
 * [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
 * [Electron API Demos](https://github.com/electron/electron-api-demos)
