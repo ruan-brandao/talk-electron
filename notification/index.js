@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Botões de dialog
   errorButton = document.getElementById("error-dialog")
   infoButton = document.getElementById("info-dialog")
-  fileButton = document.getElementById("file-dialog")
 
   // Mensagem para o processo principal disparar dialog de erro
   errorButton.addEventListener('click', function (event) {
@@ -41,9 +40,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (index === 0) message += 'sim.'
     else message += 'não.'
     document.getElementById('selection-info').innerHTML = message
-  })
-
-  fileButton.addEventListener('click', function (event) {
-    ipc.send('open-error-dialog')
   })
 })

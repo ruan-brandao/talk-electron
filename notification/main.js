@@ -17,7 +17,7 @@ app.on('ready', () => {
       message: "Diálogo mostrando informação do sistema. Curtiu?",
       buttons: ['Sim', 'Não']
     }
-    dialog.showMessageBox(options, function (index) {
+    dialog.showMessageBox(options, (index) => {
       event.sender.send('information-dialog-selection', index)
     })
   })
